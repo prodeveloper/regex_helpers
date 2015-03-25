@@ -7,9 +7,9 @@ Quickly generate form options
 *value=high title=High Priority*
 
 ##Regex
-
+```regex
 \*value="([\s\S]*?)" title="([\s\S]*?)"\*
-
+```
 ##Replacement
 
 ```html
