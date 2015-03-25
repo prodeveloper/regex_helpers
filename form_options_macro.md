@@ -8,12 +8,12 @@ Quickly generate form options
 
 ##Regex
 
-\*value=([\s\S]*?) title=([\s\S]*?)\*
+\*value="([\s\S]*?)" title="([\s\S]*?)"\*
 
 ##Replacement
 
 ```html
-<option value=$1>$2</option>
+<option value='$1'>$2</option>
 ```
 
 ##output
